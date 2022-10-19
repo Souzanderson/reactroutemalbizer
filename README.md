@@ -18,7 +18,7 @@ React Route Manager, simple and powerful:
 
 ## 3 - Navigation
 
-* For navigation of pages inscribed on routes, just call method ```go``` on ```NavigationRouter```:
+* For navigation of pages inscribed on routes, just call method ```go('route_page')``` on ```NavigationRouter```:
 
 
 ![Example](https://github.com/Souzanderson/reactroutemalbizer/blob/main/read_me_files/img3.png?raw=true)
