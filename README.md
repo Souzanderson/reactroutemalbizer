@@ -1,7 +1,7 @@
 
 # React Route by Malbizer
 
-React route manager, simple and powerful:
+React Route Manager, simple and powerful:
 
 ## 1 - Installation
 
