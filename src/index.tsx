@@ -1,15 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { PageOneComponent } from "./pages/page1/pageone.component";
+import { PageTwoComponent } from "./pages/page2/pagetwo.component";
+import reportWebVitals from "./reportWebVitals";
+import { RouterService, RouterStruct } from "./services/router/router.service";
+
+const Router = RouterService.getInstance();
+
+Router.routes = [
+  { component: PageOneComponent, path: "" },
+  { component: PageTwoComponent, path: "pagetwo" },
+];
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterStruct />
   </React.StrictMode>
 );
 

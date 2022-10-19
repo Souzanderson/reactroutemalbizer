@@ -1,0 +1,27 @@
+#pagetwosection {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: #121d0f;
+  color: #fff;
+}
+
+#pagetwosection .button {
+  cursor: pointer;
+  padding: 8px;
+  background-color: #066924;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-radius: 8px;
+}
