@@ -1,5 +1,6 @@
-import { NavigationRouter } from "../../services/router/router.service";
 import "./pagetwo.style.css";
+import { NavigationRouter } from "../../services/router/router.service";
+
 
 export const PageTwoComponent = () => {
   const handlerClickButton = (e: any) => NavigationRouter.go("");
@@ -15,3 +16,5 @@ export const PageTwoComponent = () => {
     </div>
   );
 };
+
+
