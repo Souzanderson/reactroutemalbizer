@@ -5,7 +5,7 @@ React Route Manager, simple and powerful:
 
 ## 1 - Installation
 
-* Just copy there two files to your project (sugest on service folder):
+* Just copy there two files to your project (I suggest on service folder):
 
 ![Example](https://github.com/Souzanderson/reactroutemalbizer/blob/main/read_me_files/img1.png?raw=true)
 
