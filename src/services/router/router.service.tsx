@@ -54,9 +54,10 @@ export class RouterStruct extends Component {
 
   componentDidMount() {
     setInterval(() => {
-      this.setState({
-        actual_route: window.location.pathname.replace("/", ""),
-      });
+      if (this.state.actual_route !== window.location.pathname.replace("/", ""))
+        this.setState({
+          actual_route: window.location.pathname.replace("/", ""),
+        });
     }, 100);
   }
 
